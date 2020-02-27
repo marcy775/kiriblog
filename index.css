@@ -434,6 +434,7 @@
     position: absolute;
     bottom: -8px;
     right: -8px;
+    margin-top: -15px;
     border: 15px solid transparent;
     border-left: 15px solid #a58eff;
     z-index: 0;
@@ -441,14 +442,30 @@
     transform: rotate(45deg);
   }
   .point{
-    padding-left: 4.5rem;
+    padding-left: 0rem;
   }
   .point-text{
     padding-left: 1rem;
     font-size: 32px;
   }
   
-  
+  .box29 {
+    margin: 2em 0;
+    background: #dcefff;
+}
+.box29 .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box29 p {
+    padding: 15px 20px;
+    margin: 0;
+}
   
   /* li border */
   ul.sample1{
@@ -501,13 +518,13 @@
   .page {
     position: relative;
     display: inline-block;
-    padding: 0 55px;
+    padding: 20px;
+    text-align: center;
     font-family: 'Saira Stencil One', cursive;
     font-size: 50px;
-    margin-left: 18rem;
   }
   
-  .page:before, .page:after {
+  /* .page:before, .page:after {
     content: '';
     position: absolute;
     top: 50%;
@@ -522,7 +539,7 @@
   }
   .page:after {
     right: 0;
-  }
+  } */
   
   body {
     padding-top: 70px;
@@ -648,7 +665,6 @@
   }
   
   h5{
-    font-size: px;
     text-align: center;
   }
   .navbar-link{
@@ -660,11 +676,15 @@
   .blog-text{
     font-family: 'M PLUS Rounded 1c', ;
   }
+  .center-p{
+    padding-top: 20px;
+  }
   
   p{
     color: #000;
     font-family: 'M PLUS Rounded 1c', ;
     text-align: left;
+    margin: 0px;
   }
   img{
     width: 100%;
@@ -676,16 +696,12 @@
     margin: auto;
   }
   .num{
-    font-size: 60px;
+    font-size: 32px;
     font-family: 'Saira Stencil One', cursive;
   }
   .num-2{
-    font-size: 40px;
+    font-size: 60px;
     font-family: 'Saira Stencil One', cursive;
-  }
-
-  .center-p{
-    padding-top: 10px;
   }
   
   .num-title{
@@ -705,7 +721,9 @@
     margin-top: -1px;
     margin-left: -4px;
   }
-  
+  .icon-al{
+    text-align: center;
+  }
   /* img top hover */
   /*ベースのスタイル設定*/
   .l-card-top {
@@ -793,10 +811,8 @@
     transform: translate(-50%, -50%);
     opacity: 1;
   }
-  .icon-al{
-    text-align: center;
-    padding: 10px;
-  }
+  
+  
   /* card hover */
   .l-card {
       overflow: hidden;
@@ -1124,13 +1140,13 @@
   .page {
     position: relative;
     display: inline-block;
-    padding: 0 55px;
+    padding: 20px;
+    text-align: center;
     font-family: 'Saira Stencil One', cursive;
     font-size: 50px;
-    margin-left: 18rem;
   }
   
-  .page:before, .page:after {
+  /* .page:before, .page:after {
     content: '';
     position: absolute;
     top: 50%;
@@ -1145,7 +1161,7 @@
   }
   .page:after {
     right: 0;
-  }
+  } */
   
   body {
     padding-top: 70px;
@@ -1220,8 +1236,8 @@
   
   .icon{
     padding: 3px;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
   }
   .icon:hover{
     color: #ccc;
@@ -1233,12 +1249,13 @@
   
   footer{
     width: 100%;
+    height: 200px; 
     text-align: center;
+    padding: 50px 0;
     background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
   }
-  .footer-menu li {
+  ul.footer-menu li {
     color: rgba(75,75,75);
-    text-align: center;
     display: inline;
     }
   li:hover{
@@ -1253,7 +1270,7 @@
 
 /* スマホ用 */
 @media screen and (max-width: 479px){
-    hr{
+  hr{
     height: 40px;
     border-right-style: 2rem;
     background-color: black;
@@ -1269,9 +1286,18 @@
     border-bottom: solid 2px #000000;/*下線*/
   }
   
+  .img-back{
+    width: 100vw;
+    margin: 0px -4vw !important;
+    max-width: 100vw;
+    margin-bottom: 5vw !important;
+  }
   h5{
     font-size: px;
     text-align: center;
+  }
+  .lp{
+    font-size: 15px;
   }
   .navbar-link{
     font-family: 'Montserrat Subrayada', ;  
@@ -1293,7 +1319,7 @@
     height: auto;
   }
   .teddy{
-    width: 60%;
+    width: 100%;
     height: auto;
     margin: auto;
   }
@@ -1655,11 +1681,11 @@
   }
   
   /*　point */
-  .balloon3-right-btm {
+  /* .balloon3-right-btm {
     position: relative;
     display: inline-block;
     max-width: 100%;
-    margin: 1.5em 50px 1.5em 0;
+    margin: 0 0 0 0;
     padding: 0 10px;
     width: 90px;
     height: 90px;
@@ -1686,12 +1712,30 @@
     transform: rotate(45deg);
   }
   .point{
-    padding-left: 4.5rem;
+    padding-left: 0rem;
   }
   .point-text{
     padding-left: 1rem;
-    font-size: 32px;
-  }
+    font-size: 28px;
+  } */
+
+  .box29 {
+    margin: 2em 0;
+    background: #dcefff;
+}
+.box29 .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.box29 p {
+    padding: 15px 20px;
+    margin: 0;
+}
   
   
   
@@ -1746,13 +1790,13 @@
   .page {
     position: relative;
     display: inline-block;
-    padding: 0 55px;
+    padding: 20px;
+    text-align: center;
     font-family: 'Saira Stencil One', cursive;
     font-size: 50px;
-    margin-left: 18rem;
   }
   
-  .page:before, .page:after {
+  /* .page:before, .page:after {
     content: '';
     position: absolute;
     top: 50%;
@@ -1767,10 +1811,9 @@
   }
   .page:after {
     right: 0;
-  }
+  } */
   
   body {
-    padding-top: 70px;
     background-color: #e1e1e1;
   }
   .k-text{
@@ -1856,11 +1899,12 @@
   footer{
     width: 100%;
     text-align: center;
+    margin: 10px auto;
+    padding: 30px 0;
     background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
   }
-  .footer-menu li {
+  ul.footer-menu li {
     color: rgba(75,75,75);
-    text-align: center;
     display: inline;
     }
   li:hover{
