@@ -37,9 +37,12 @@
     font-family: 'M PLUS Rounded 1c', ;
   }
   .center-p{
-    padding: 65px;
+    padding: 70px;
   }
-  
+  .col-md-8{
+    padding-right: 60px;
+    padding-left: 60px;
+  }
   p{
     color: #000;
     font-family: 'M PLUS Rounded 1c', ;
@@ -646,13 +649,13 @@
 
 }
 
-
+/* タブレット用 */
 @media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
   hr{
     height: 40px;
     border-right-style: 2rem;
     background-color: black;
-    margin: 120px;
+    margin: 0px;
     border: none;
   }
   
@@ -1058,44 +1061,7 @@
     transform: translateY(-20px) rotate(45deg);
   }
   
-  /*　point */
-  /* .balloon3-right-btm {
-    position: relative;
-    display: inline-block;
-    max-width: 100%;
-    margin: 0 0 0 0;
-    padding: 0 10px;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: bold;
-    background: #a58eff;
-    border-radius: 50%;
-    box-sizing: border-box;
-  }
-  
-  .balloon3-right-btm:before {
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    right: -8px;
-    margin-top: -15px;
-    border: 15px solid transparent;
-    border-left: 15px solid #a58eff;
-    z-index: 0;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  .point{
-    padding-left: 0rem;
-  }
-  .point-text{
-    padding-left: 1rem;
-    font-size: 28px;
-  } */
+
 
   .box29 {
     margin: 2em 0;
@@ -1197,7 +1163,7 @@
   .k-text{
     font-family: 'M PLUS Rounded 1c', ;
     font-size: 100%;
-    margin-left: 120px;
+    margin-left: 0px;
     font-weight: bold;
   }
   /* page button */
@@ -1301,7 +1267,7 @@
     height: 40px;
     border-right-style: 2rem;
     background-color: black;
-    margin: 120px;
+    margin: 0px;
     border: none;
   }
   
@@ -1707,44 +1673,7 @@
     transform: translateY(-20px) rotate(45deg);
   }
   
-  /*　point */
-  /* .balloon3-right-btm {
-    position: relative;
-    display: inline-block;
-    max-width: 100%;
-    margin: 0 0 0 0;
-    padding: 0 10px;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    text-align: center;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: bold;
-    background: #a58eff;
-    border-radius: 50%;
-    box-sizing: border-box;
-  }
-  
-  .balloon3-right-btm:before {
-    content: "";
-    position: absolute;
-    bottom: -8px;
-    right: -8px;
-    margin-top: -15px;
-    border: 15px solid transparent;
-    border-left: 15px solid #a58eff;
-    z-index: 0;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  .point{
-    padding-left: 0rem;
-  }
-  .point-text{
-    padding-left: 1rem;
-    font-size: 28px;
-  } */
+
 
   .box29 {
     margin: 2em 0;
@@ -1846,7 +1775,7 @@
   .k-text{
     font-family: 'M PLUS Rounded 1c', ;
     font-size: 100%;
-    margin-left: 120px;
+    margin-left: 0px;
     font-weight: bold;
   }
   /* page button */
