@@ -551,7 +551,7 @@
   .k-text{
     font-family: 'M PLUS Rounded 1c', ;
     font-size: 100%;
-    margin-left: 120px;
+    text-align: center;
     font-weight: bold;
   }
   /* page button */
@@ -1158,12 +1158,13 @@
   } */
   
   body {
+    padding-top: 70px;
     background-color: #e1e1e1;
   }
   .k-text{
     font-family: 'M PLUS Rounded 1c', ;
     font-size: 100%;
-    margin-left: 0px;
+    text-align: center;
     font-weight: bold;
   }
   /* page button */
@@ -1770,12 +1771,13 @@
   } */
   
   body {
+    padding-top: 70px;
     background-color: #e1e1e1;
   }
   .k-text{
     font-family: 'M PLUS Rounded 1c', ;
     font-size: 100%;
-    margin-left: 0px;
+    text-align: center;
     font-weight: bold;
   }
   /* page button */
