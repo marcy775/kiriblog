@@ -8,6 +8,10 @@
     margin: 0px;
     border: none;
   }
+
+  .n-top{
+    position: fixed;
+  }
   
    h3 {
     color: #000000;/*文字色*/
@@ -651,6 +655,10 @@
 
 /* タブレット用 */
 @media screen and (max-width: 767px) { /*ウィンドウ幅が最大767pxまでの場合に適用*/
+  .n-top{
+    position: none;
+  }
+
   hr{
     height: 40px;
     border-right-style: 2rem;
@@ -1158,7 +1166,6 @@
   } */
   
   body {
-    padding-top: 70px;
     background-color: #e1e1e1;
   }
   .k-text{
@@ -1271,6 +1278,10 @@
     margin: 0px;
     border: none;
   }
+
+  .n-top{
+    position: none;
+  }
   
    h3 {
     color: #000000;/*文字色*/
@@ -1771,7 +1782,6 @@
   } */
   
   body {
-    padding-top: 70px;
     background-color: #e1e1e1;
   }
   .k-text{
